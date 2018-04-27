@@ -1,1 +1,3 @@
 /StanfordTutorials/graphs/*
+.DS_Store
+/KerasAutoEncoder/creditcard.csv

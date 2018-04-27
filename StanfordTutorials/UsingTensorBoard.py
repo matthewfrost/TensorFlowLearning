@@ -6,7 +6,7 @@ import tensorflow as tf
 
 x = tf.constant(2, name="x")
 y = tf.constant(3, name="y")
-z = tf.add(x, y)
+z = tf.add(x, y, name="add")
 
 with tf.Session() as sess:
     writer = tf.summary.FileWriter('./graphs', tf.get_default_graph())
