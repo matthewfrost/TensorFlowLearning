@@ -72,7 +72,7 @@ def main():
                         kernels.EMBOSS_FILTER]
 
     kernels_list = kernels_list[1:]
-    image = read_one_image('me.jpeg')
+    image = read_one_image('castle.jpg')
     if not rgb:
         image = tf.image.rgb_to_grayscale(image)
     image = tf.expand_dims(image, 0) # make it into a batch of 1 element
